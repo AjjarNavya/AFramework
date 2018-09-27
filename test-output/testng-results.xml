@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[inside beforemethod]]>
+    </line>
+    <line>
+      <![CDATA[DATA:username]]>
+    </line>
+    <line>
+      <![CDATA[Row:1]]>
+    </line>
+    <line>
+      <![CDATA[DATA:username]]>
+    </line>
+    <line>
+      <![CDATA[inside aftermethod]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="111420" started-at="2018-09-27T06:43:02Z" finished-at="2018-09-27T06:44:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="111420" started-at="2018-09-27T06:43:02Z" finished-at="2018-09-27T06:44:54Z">
+      <class name="script.Testdemo">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:script.Testdemo@4883b407]" name="beforeMethod" is-config="true" duration-ms="102008" started-at="2018-09-27T06:43:02Z" finished-at="2018-09-27T06:44:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[inside beforemethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Testingmethod()[pri:0, instance:script.Testdemo@4883b407]" name="Testingmethod" duration-ms="7974" started-at="2018-09-27T06:44:44Z" finished-at="2018-09-27T06:44:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[DATA:username]]>
+            </line>
+            <line>
+              <![CDATA[Row:1]]>
+            </line>
+            <line>
+              <![CDATA[DATA:username]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Testingmethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:script.Testdemo@4883b407]" name="afterMethod" is-config="true" duration-ms="1249" started-at="2018-09-27T06:44:52Z" finished-at="2018-09-27T06:44:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[inside aftermethod]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- script.Testdemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
